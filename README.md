@@ -40,7 +40,7 @@ L’outil se concentre sur la manipulation d’images au format **BMP** (8 bits 
 - `bmp24equalize.h` : Déclaration de la fonction d’égalisation d’histogramme.
 - `bmp24equalize.c` : Implémentation de l’égalisation d’histogramme (et conversions RGB <-> YUV).
 
-Bugs connus / Limitations
+##Bugs connus / Limitations
 -Seuls les fichiers BMP non compressés sont supportés.
 -Seules les images BMP en 8 bits et 24 bits sont supportées.
 -Certains filtres avancés pour les images en niveaux de gris sont des placeholders (non implémentés).
