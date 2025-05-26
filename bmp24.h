@@ -37,7 +37,7 @@
 #define DEFAULT_DEPTH 0x18  // 24 bits par défaut (8 bits par couleur)
 
 
-#pragma pack(push, 1) // 🔧 Désactive l’alignement automatique
+#pragma pack(push, 1) // Désactive l’alignement automatique
 /*
  * Structure de l'en-tête principal du fichier BMP
  */
