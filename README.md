@@ -35,6 +35,22 @@ L’outil se concentre sur la manipulation d’images au format **BMP** (8 bits 
 - `bmp24equalize.h` : Déclaration de la fonction d’égalisation d’histogramme.
 - `bmp24equalize.c` : Implémentation de l’égalisation d’histogramme (et conversions RGB <-> YUV).
 
+projet-image-bmp/
+├── bmp24.c               ← Lecture/écriture BMP 24 bits
+├── bmp24.h               ← En-têtes et structures pour BMP 24 bits
+├── bmp8.c                ← Lecture/écriture BMP 8 bits
+├── bmp8.h                ← En-têtes et structures pour BMP 8 bits
+├── bmp24equalize.c       ← Égalisation de contraste pour BMP 24 bits
+├── bmp8equalize.c        ← Égalisation de contraste pour BMP 8 bits
+├── main.c                ← Point d’entrée du programme (gestion des arguments)
+├── Makefile              ← Compilation automatisée
+├── README.md             ← Description du projet (ce fichier)
+└── images/               ← Dossier pour les images d'entrée et de sortie (exemples BMP)
+    ├── exemple_entree_8bits.bmp
+    ├── exemple_sortie_8bits.bmp
+    ├── exemple_entree_24bits.bmp
+    └── exemple_sortie_24bits.bmp
+
 ## Bugs connus / Limitations
 
 Seuls les fichiers BMP non compressés sont supportés.
